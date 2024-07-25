@@ -28,12 +28,16 @@ if os.path.exists("Internal"):
    load_dotenv("Internal")
 
 
-API_ID = int(getenv("API_ID", 0))
-API_HASH = getenv("API_HASH", None)
-BOT_TOKEN = getenv("BOT_TOKEN", None)
-STRING_SESSION = getenv("STRING_SESSION", None)
-MONGO_DB_URL = getenv("MONGO_DB_URL", None)
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", 0))
+API_ID = 25742938
+API_HASH = "b35b715fe8dc0a58e8048988286fc5b6"
+BOT_TOKEN = "7114779693:AAHr0QiVmNgwsPGQM8W-pv6VEpItEoW3a5k"
+STRING_SESSION = "BAGIzloAuVqc9pUpiCUzz-RhxrSuiTJGdFo4S0qAmxw3JclCDW3Caq4omKt2-cmlvRGZsthmvlaACB5ULFMlqQdpmI4CGHBygYHNnZmdqSEEpFjm8GUtQ3yOLXCJlHdINlP05dwGH1EDzWnTnDFhza_-lGBqa96Vvj1ggwZMHX9ea4M_U7qoKuNqc8N-vM6YVIREZTEAVSB3KZQwTmtS-m7zOwWg-AhV0hE1vNd9sTSxgrIK0Uilv03xoYtRAXRhd4VF6enxkQcfl4crgTrJO6ttUr2SjF5MsYYlfKVCshh1VS9ajcRTavAb1RbEcr62aeSB1w6z9bfVuDRLkRXxLECdmVmDxgAAAAF6nXj9AA"
+MONGO_DB_URL = "mongodb+srv://BADMUNDA:BADMYDAD@badhacker.i5nw9na.mongodb.net/"
+LOG_GROUP_ID = -1002093247039
+OWNER_ID = int(getenv("OWNER_ID", "6898413162"))
+OWNER_USERNAME = "@II_BAD_BABY_II"
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6898413162").split()))
+ALIVE_PIC = getenv("ALIVE_PIC", "https://telegra.ph/file/09a3948ee0879834f99b5.png")
 
 
 # OPTIONAL VARIABLES
